@@ -1,6 +1,6 @@
 # Adonis
 - An Instrumentation-Free and Hardware-Independent Control Flow Recovery Tool
-- This repository is based on a fork of (EOSAFE)[https://www.usenix.org/conference/usenixsecurity21/presentation/he-ningyu], a symbolic execution engine for WebAssembly (Wasm)
+- This repository is based on a fork of [EOSAFE](https://www.usenix.org/conference/usenixsecurity21/presentation/he-ningyu), a symbolic execution engine for WebAssembly (Wasm)
 
 ## Introduction
 
