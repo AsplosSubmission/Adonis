@@ -1,0 +1,48 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 28
+   7	 PORTS 8
+   8	 PORT 1
+   9	 AMPLITUDE 49
+  10	 PHASE_POL_ARRANG 624
+  11	 PORT 2
+  12	 AMPLITUDE 24
+  13	 PHASE_POL_ARRANG 581
+  14	 PORT 3
+  15	 AMPLITUDE 25
+  16	 PHASE_POL_ARRANG 611
+  17	 PORT 4
+  18	 AMPLITUDE 29
+  19	 PORT 5
+  20	 AMPLITUDE 25
+  21	 PHASE_POL_ARRANG 406
+  22	 PORT 6
+  23	 AMPLITUDE 31
+  24	 PHASE_POL_ARRANG 444
+  25	 PORT 7
+  26	 AMPLITUDE 34
+  27	 PHASE_POL_ARRANG 474
+  28	 PORT 8
+  29	 AMPLITUDE 25
+  30	 PHASE_POL_ARRANG 680
+  31	 ADD BLOCK 2 1 0 1
+  33	 GROUP_EXCITATION
+  34	 AMPLITUDE SECOND ORDER 30 27 29 26 24
+  35	 PHASE UNIFORM 155
+  36	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:56.000000,56.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR  B5: SECOND ORDER law not allowed on irregular groups.
+** ERROR  B6: AMPLITUDE excitation error in GROUP: testgroup

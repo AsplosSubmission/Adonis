@@ -1,0 +1,41 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 95 70
+   8	 PORTS 1
+   9	 PORT 1
+  10	 AMPLITUDE 36
+  11	 PHASE_SHAPING 646
+  12	 ADD NODE -11 1
+  14	 GROUP_EXCITATION
+  15	 AMPLITUDE UNIFORM 22
+  16	 PHASE SECOND ORDER 10 29 17 24 26
+  17	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:95.000000,95.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr910.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	-1045.00    95.00     0.00     0.00     0.00     0.00
+   1 	-1045.00    95.00     0.00     0.00     0.00     0.00
+   	  792.00   656.00     0.00    90.00
+   	  792.00   656.00     0.00    90.00
+
+** End writing output file: ../inputs/gr910.dat 

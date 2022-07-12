@@ -1,0 +1,25 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 72 48
+   8	 ADD XX
+   9	 ADD BLOCK -5 -2 -3 -5
+  10	 ADD NODE -1 -2 ORIENTATION THETA 32 PHI 53 PSI 10
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE SECOND ORDER 19 13 27 28 25
+  14	 PHASE ROTATION SEQUENTIAL CCW
+  15	 END
+
+Error occurred at line 8
+   8:	 ADD XX
+% 	     ^
+** ERROR 62: Incorrect ADD statement. 
+
+** ERROR 62: Incorrect ADD statement.
+** ERROR 82: Incorrect GROUP definition, group: testgroup

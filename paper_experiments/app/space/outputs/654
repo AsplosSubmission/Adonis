@@ -1,0 +1,25 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 64
+   6	 POLARIZATION CIRCULAR
+   7	 ADD HEXAGON 1 2
+   8	 ADD BLOCK 0 6 -4 6
+   9	 ADD BLOCK -2 -2 11 3
+  10	 ADD BLOCK -2 5 5 2
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE SECOND ORDER CENTRE 28 P1_VAL 19 P2_VAL 22 Q1_VAL 30 Q2_VAL 25
+  14	 XX SECOND ORDER 24 26 28 32 22
+  15	 END
+
+** ERROR 80: Incorrect PHASE excitation definition.
+Error occurred at line 12
+  12:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

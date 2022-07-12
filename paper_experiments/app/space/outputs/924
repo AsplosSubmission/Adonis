@@ -1,0 +1,29 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID XX
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 52 50 mm
+   7	 POLARIZATION LINEAR
+   8	 PORTS 1
+   9	 PORT 1
+  10	 POL_ORIENT X AMPLITUDE 23
+  11	 PHASE_POL_ARRANG 617
+  12	 ADD BLOCK -1 -9 -4 6
+  13	 ADD NODE 2 3 ORIENTATION -10 44 27
+  14	 ADD BLOCK -1 -5 2 0
+  16	 GROUP_EXCITATION
+  17	 AMPLITUDE SECOND ORDER 24 17 20 25 20
+  18	 PHASE ROTATION SEQUENTIAL
+  19	 END
+
+Error occurred at line 3
+   3:	 GRID XX
+% 	      ^
+** ERROR 16: Incorrect GRID definition. 
+
+** ERROR 16: Incorrect GRID definition.

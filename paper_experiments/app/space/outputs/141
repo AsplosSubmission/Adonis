@@ -1,0 +1,42 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL STEP 80
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 43
+   7	 ADD BLOCK -7 -2 -7 -3
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 25
+  11	 PHASE UNIFORM -132
+  12	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:80.000000,80.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr141.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   2
+   2
+   1
+   1
+   1 	 -680.00  -207.85     0.00     0.00     0.00     0.00
+   1 	 -680.00  -207.85     0.00     0.00     0.00     0.00
+   	   25.00  -132.00     0.00    90.00
+   	   25.00  -132.00     0.00    90.00
+   2 	 -640.00  -138.56     0.00     0.00     0.00     0.00
+   2 	 -640.00  -138.56     0.00     0.00     0.00     0.00
+   	   25.00  -132.00     0.00    90.00
+   	   25.00  -132.00     0.00    90.00
+
+** End writing output file: ../inputs/gr141.dat 

@@ -1,0 +1,52 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 24
+   6	 POLARIZATION CIRCULAR
+   7	 PORTS 8
+   8	 PORT 1
+   9	 AMPLITUDE 29
+  10	 PORT 2
+  11	 AMPLITUDE 18
+  12	 PHASE_POL_ARRANG 496
+  13	 PORT 3
+  14	 AMPLITUDE 25
+  15	 PHASE_SHAPING 594
+  16	 PHASE_POL_ARRANG 591
+  17	 PORT 4
+  18	 AMPLITUDE 20
+  19	 PORT 5
+  20	 AMPLITUDE 32
+  21	 PHASE_SCANNING 540
+  22	 PHASE_POL_ARRANG 367
+  23	 PORT 6
+  24	 AMPLITUDE 29
+  25	 PHASE_SHAPING 693 deg
+  26	 PHASE_POL_ARRANG 660
+  27	 PORT 7
+  28	 AMPLITUDE 27
+  29	 PHASE_SHAPING 628
+  30	 PHASE_SCANNING 630
+  31	 PHASE_POL_ARRANG 462 deg
+  32	 PORT 8
+  33	 AMPLITUDE 27 m
+  34	 PHASE_SCANNING 496 deg
+  35	 PHASE_POL_ARRANG 787
+  36	 ADD BLOCK -5 -3 -5 -7
+  38	 GROUP_EXCITATION
+  39	 AMPLITUDE UNIFORM 17
+  40	 PHASE UNIFORM 22
+  41	 END
+
+Error occurred at line 33
+  33:	 AMPLITUDE 27 m
+% 	              ^
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

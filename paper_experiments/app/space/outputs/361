@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 35
+   6	 POLARIZATION CIRCULAR
+   7	 PORTS 1
+   8	 PORT 1
+   9	 POL_ORIENT Y deg
+  10	 AMPLITUDE 25
+  11	 PHASE_POL_ARRANG 697
+  12	 ADD BLOCK 0 5 0 3
+  14	 GROUP_EXCITATION
+  15	 AMPLITUDE UNIFORM 21
+  16	 PHASE UNIFORM -39
+  17	 END
+
+** ERROR 39: Incorrect element PORT AMPLITUDE definition.
+** ERROR 47: Incorrect definition at PORT: 1
+** ERROR 49: Incorrect element PORTS definition.
+** ERROR 24: Incorrect ELEMENT definition.

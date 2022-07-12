@@ -1,0 +1,20 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 64 QSTEP 40
+   4	 ELEMENT
+   5	 GEOMETRY XX
+   7	 POLARIZATION LINEAR ORIENTATION Y
+   8	 ADD BLOCK -2 -10 -8 0
+   9	 ADD BLOCK -5 -11 -1 -4
+  11	 GROUP_EXCITATION
+  12	 AMPLITUDE UNIFORM 20
+  13	 PHASE UNIFORM 1
+  14	 END
+
+** ERROR 34: Incorrect element GEOMETRY definition.
+** ERROR 24: Incorrect ELEMENT definition.

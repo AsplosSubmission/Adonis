@@ -1,0 +1,27 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 41
+   7	 PORTS 1
+   8	 PORT 1
+   9	 AMPLITUDE 56 mm
+  10	 PHASE_SCANNING 771
+  11	 PHASE_POL_ARRANG 633
+  12	 ADD BLOCK 4 -8 -3 -8
+  14	 GROUP_EXCITATION
+  15	 AMPLITUDE UNIFORM 25
+  16	 PHASE UNIFORM 13 deg
+  17	 END
+
+Error occurred at line 9
+   9:	 AMPLITUDE 56 mm
+% 	              ^
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

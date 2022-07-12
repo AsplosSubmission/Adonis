@@ -1,0 +1,22 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 46 53 mm
+   7	 POLARIZATION LINEAR ORIENTATION 37
+   8	 ADD BLOCK -12 1 -5 1
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE XX
+  12	 PHASE UNIFORM 0
+  13	 END
+
+** ERROR 79: Incorrect AMPLITUDE excitation definition.
+Error occurred at line 10
+  10:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

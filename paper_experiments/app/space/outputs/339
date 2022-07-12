@@ -1,0 +1,27 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 82 mm
+   7	 ADD BLOCK 4 -3 1 -2
+   8	 ADD XX
+   9	 ADD BLOCK 0 -3 -1 0
+  10	 ADD BLOCK 0 0 5 7
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE UNIFORM 28
+  14	 PHASE UNIFORM 182
+  15	 END
+
+Error occurred at line 8
+   8:	 ADD XX
+% 	     ^
+** ERROR 62: Incorrect ADD statement. 
+
+** ERROR 62: Incorrect ADD statement.
+** ERROR 64: Incorrect ADD or REMOVE statement.
+** ERROR 82: Incorrect GROUP definition, group: testgroup

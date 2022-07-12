@@ -1,0 +1,49 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL STEP 58 m
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 49
+   6	 POLARIZATION LINEAR
+   7	 PORTS 6
+   8	 PORT 1
+   9	 POL_ORIENT Y AMPLITUDE 66 mm
+  10	 PHASE_SHAPING 454
+  11	 PHASE_POL_ARRANG 663 deg
+  12	 PORT 2
+  13	 AMPLITUDE 28
+  14	 PHASE_POL_ARRANG 504
+  15	 PORT 3
+  16	 AMPLITUDE 24
+  17	 PHASE_SCANNING 530
+  18	 PORT 4
+  19	 AMPLITUDE 32 mm
+  20	 PHASE_POL_ARRANG 496
+  21	 PORT 5
+  22	 AMPLITUDE 27
+  23	 PHASE_POL_ARRANG 555
+  24	 PORT 6
+  25	 AMPLITUDE 27
+  26	 PHASE_POL_ARRANG 576
+  27	 ADD BLOCK 1 -3 0 3
+  28	 ADD BLOCK 3 0 -5 -3
+  29	 ADD NODE 7 13
+  30	 ADD BLOCK -11 -6 -5 -3
+  32	 GROUP_EXCITATION
+  33	 AMPLITUDE SECOND ORDER 32 27 23 22 29
+  34	 PHASE UNIFORM -37
+  35	 END
+
+Error occurred at line 9
+   9:	 POL_ORIENT Y AMPLITUDE 66 mm
+% 	                           ^
+** ERROR 1: Keyword expected: PORT
+
+** ERROR 46: Too few PORT definitions. 
+
+** ERROR 49: Incorrect element PORTS definition.
+** ERROR 24: Incorrect ELEMENT definition.

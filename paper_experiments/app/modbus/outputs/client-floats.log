@@ -1,0 +1,15 @@
+Connecting to 127.0.0.1:1502
+** UNIT TESTING **
+1/1 No response timeout modification on connect: OK
+
+TEST FLOATS
+1/4 Set/get float ABCD: OK
+OK
+2/4 Set/get float DCBA: OK
+OK
+3/4 Set/get float BADC: OK
+OK
+4/4 Set/get float CDAB: OK
+OK
+
+ALL TESTS PASS WITH SUCCESS.

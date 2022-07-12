@@ -1,0 +1,49 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR ANGLE 7 PSTEP 74 QSTEP 41
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 45
+   7	 PORTS 8
+   8	 PORT 1
+   9	 POL_ORIENT 45 AMPLITUDE 57
+  10	 PORT 2
+  11	 AMPLITUDE 24
+  12	 PHASE_SHAPING 554 deg
+  13	 PHASE_POL_ARRANG 630 deg
+  14	 PORT 3
+  15	 AMPLITUDE 20
+  16	 PHASE_SCANNING 655
+  17	 PHASE_POL_ARRANG 616
+  18	 PORT 4
+  19	 AMPLITUDE 25
+  20	 PHASE_SHAPING 701
+  21	 PHASE_POL_ARRANG 433
+  22	 PORT 5
+  23	 AMPLITUDE 22
+  24	 PHASE_SHAPING 711
+  25	 PHASE_POL_ARRANG 454 deg
+  26	 PORT 6
+  27	 AMPLITUDE 22
+  28	 PHASE_POL_ARRANG 379
+  29	 PORT 7
+  30	 AMPLITUDE 24
+  31	 PHASE_POL_ARRANG 565
+  32	 PORT 8
+  33	 AMPLITUDE 25
+  34	 PHASE_SCANNING 384
+  35	 ADD BLOCK 3 3 1 -1
+  37	 GROUP_EXCITATION
+  38	 AMPLITUDE UNIFORM 26 mm
+  39	 PHASE UNIFORM 114
+  40	 END
+
+** ERROR 80: Incorrect PHASE excitation definition.
+Error occurred at line 37
+  37:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

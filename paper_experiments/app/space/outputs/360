@@ -1,0 +1,22 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 63 mm
+   7	 ADD BLOCK 0 -1 3 -3
+   8	 ADD BLOCK 1 2 3 0
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 25 cm
+  12	 PHASE UNIFORM -171
+  13	 END
+
+** ERROR 80: Incorrect PHASE excitation definition.
+Error occurred at line 10
+  10:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

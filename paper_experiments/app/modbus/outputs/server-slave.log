@@ -1,0 +1,39 @@
+ERROR Connection reset by peer: read
+The client connection from 127.0.0.1 is accepted
+Waiting for an indication...
+<00><01><00><00><00><06><12><03><01><60><00><03>
+[00][01][00][00][00][09][12][03][06][00][00][00][00][00][00]
+Waiting for an indication...
+<00><02><00><00><00><06><00><03><01><60><00><03>
+[00][02][00][00][00][09][00][03][06][00][00][00][00][00][00]
+Waiting for an indication...
+<00><03><00><00><00><06><FF><03><01><71><00><01>
+Reply with an invalid TID or slave
+[00][00][00][00][00][05][FF][03][02][00][00]
+Waiting for an indication...
+<00><04><00><00><00><02><FF><11>
+[00][04][00][00][00][0D][FF][11][0A][B4][FF][4C][4D][42][33][2E][31][2E][37]
+Waiting for an indication...
+<00><05><00><00><00><02><FF><11>
+[00][05][00][00][00][0D][FF][11][0A][B4][FF][4C][4D][42][33][2E][31][2E][37]
+Waiting for an indication...
+<00><06><00><00><00><06><FF><03><01><60><00><03>
+[00][06][00][00][00][09][FF][03][06][00][00][00][00][00][00]
+Waiting for an indication...
+<00><07><00><00><00><06><FF><03><01><72><00><01>
+Sleep 0.5 s before replying
+[00][07][00][00][00][05][FF][03][02][00][00]
+Waiting for an indication...
+<00><08><00><00><00><06><FF><03><01><72><00><01>
+Sleep 0.5 s before replying
+[00][08][00][00][00][05][FF][03][02][00][00]
+Waiting for an indication...
+<00><09><00><00><00><06><FF><03><01><72><00><01>
+Sleep 0.5 s before replying
+[00][09][00][00][00][05][FF][03][02][00][00]
+Waiting for an indication...
+<00><0A><00><00><00><06><FF><03><01><73><00><01>
+(00)(0A)(00)(00)(00)(05)(FF)(03)(02)(00)(00)Waiting for an indication...
+<00><0B><00><00><00><06><FF><03><01><73><00><01>
+(00)(0B)(00)(00)(00)(05)(FF)(03)(02)(00)(00)Waiting for an indication...
+Quit the loop: Connection reset by peer

@@ -1,0 +1,38 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 85 QSTEP 15 mm
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 31 82
+   8	 ADD NODE 0 2
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 25
+  12	 PHASE UNIFORM -74
+  13	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:85.000000,15.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr266.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	   -0.00    30.00     0.00     0.00     0.00     0.00
+   1 	   -0.00    30.00     0.00     0.00     0.00     0.00
+   	   25.00   -74.00     0.00    90.00
+   	   25.00   -74.00     0.00    90.00
+
+** End writing output file: ../inputs/gr266.dat 

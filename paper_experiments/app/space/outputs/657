@@ -1,0 +1,46 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 11
+   6	 POLARIZATION LINEAR
+   7	 ADD BLOCK -3 -4 -3 -2
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 24
+  11	 PHASE UNIFORM 46
+  12	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:22.000000,22.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr657.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   3
+   3
+   1
+   1
+   1 	  -66.00   -88.00     0.00     0.00     0.00     0.00
+   1 	  -66.00   -88.00     0.00     0.00     0.00     0.00
+   	   24.00    46.00     0.00    90.00
+   	   24.00    46.00     0.00    90.00
+   2 	  -66.00   -66.00     0.00     0.00     0.00     0.00
+   2 	  -66.00   -66.00     0.00     0.00     0.00     0.00
+   	   24.00    46.00     0.00    90.00
+   	   24.00    46.00     0.00    90.00
+   3 	  -66.00   -44.00     0.00     0.00     0.00     0.00
+   3 	  -66.00   -44.00     0.00     0.00     0.00     0.00
+   	   24.00    46.00     0.00    90.00
+   	   24.00    46.00     0.00    90.00
+
+** End writing output file: ../inputs/gr657.dat 

@@ -1,0 +1,46 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 87
+   6	 POLARIZATION CIRCULAR
+   7	 ADD BLOCK 1 -2 1 0
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 23
+  11	 PHASE ROTATION SEQUENTIAL
+  12	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:87.000000,87.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr53.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   3
+   3
+   1
+   1
+   1 	   87.00  -174.00     0.00     0.00  -240.00     0.00
+   1 	   87.00  -174.00     0.00     0.00  -240.00     0.00
+   	   23.00  -240.00     0.00    90.00
+   	   23.00  -240.00     0.00    90.00
+   2 	   87.00   -87.00     0.00     0.00  -120.00     0.00
+   2 	   87.00   -87.00     0.00     0.00  -120.00     0.00
+   	   23.00  -120.00     0.00    90.00
+   	   23.00  -120.00     0.00    90.00
+   3 	   87.00     0.00     0.00     0.00     0.00     0.00
+   3 	   87.00     0.00     0.00     0.00     0.00     0.00
+   	   23.00     0.00     0.00    90.00
+   	   23.00     0.00     0.00    90.00
+
+** End writing output file: ../inputs/gr53.dat 

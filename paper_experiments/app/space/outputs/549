@@ -1,0 +1,23 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 17 QSTEP 50
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 91 77
+   8	 ADD HEXAGON -1 -1
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 30
+  12	 PHASE UNIFORM 73
+  13	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:17.000000,50.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+** WARNING 7: User name too long: 
+** ERROR  B8: Error in group geometry; GROUP: testgroup

@@ -1,0 +1,43 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR ANGLE 80 PSTEP 8 QSTEP 20 mm
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 89
+   6	 POLARIZATION CIRCULAR
+   7	 ADD BLOCK 0 -4 0 -3
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 20
+  11	 PHASE UNIFORM -39
+  12	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:8.000000,20.000000
+** Grid ANGLE set to:80.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr890.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   2
+   2
+   1
+   1
+   1 	  -13.89   -78.78     0.00     0.00     0.00     0.00
+   1 	  -13.89   -78.78     0.00     0.00     0.00     0.00
+   	   20.00   -39.00     0.00    90.00
+   	   20.00   -39.00     0.00    90.00
+   2 	  -10.42   -59.09     0.00     0.00     0.00     0.00
+   2 	  -10.42   -59.09     0.00     0.00     0.00     0.00
+   	   20.00   -39.00     0.00    90.00
+   	   20.00   -39.00     0.00    90.00
+
+** End writing output file: ../inputs/gr890.dat 

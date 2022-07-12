@@ -1,0 +1,21 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 90
+   6	 POLARIZATION CIRCULAR
+   7	 ADD NODE -7 0 ORIENTATION 25 1 26
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 26
+  11	 PHASE SECOND ORDER 21 22 26 21 26 mm
+  12	 END
+
+Error occurred at line 11
+  11:	 PHASE SECOND ORDER 21 22 26 21 26 mm
+% 	                                   ^
+** ERROR 1: Keyword expected: END

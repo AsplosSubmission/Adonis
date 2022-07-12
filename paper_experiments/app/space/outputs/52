@@ -1,0 +1,23 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 PX 11
+   5	 PY 21
+   6	 QX 13
+   7	 QY 15
+   8	 ELEMENT
+   9	 GEOMETRY CIRCULAR 25
+  10	 POLARIZATION LINEAR
+  11	 ADD NODE 0 -2
+  13	 GROUP_EXCITATION
+  14	 AMPLITUDE UNIFORM 25
+  15	 PHASE UNIFORM 171
+  16	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** ERROR  B4: GRID angle out of non ambiguity range; angle=13.268408

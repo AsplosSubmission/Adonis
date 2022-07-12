@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID XX
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR PDIM 67 QDIM 40
+   7	 POLARIZATION LINEAR
+   8	 ADD BLOCK -4 -11 5 1
+   9	 ADD BLOCK -1 -2 3 -5
+  10	 ADD BLOCK -7 -2 0 0
+  11	 ADD BLOCK 2 0 0 1
+  13	 GROUP_EXCITATION
+  14	 AMPLITUDE UNIFORM 26
+  15	 PHASE UNIFORM 74 deg
+  16	 END
+
+Error occurred at line 3
+   3:	 GRID XX
+% 	      ^
+** ERROR 16: Incorrect GRID definition. 
+
+** ERROR 16: Incorrect GRID definition.

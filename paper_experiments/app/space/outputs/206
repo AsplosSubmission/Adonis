@@ -1,0 +1,46 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 65 QSTEP 45
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 22 67
+   7	 POLARIZATION CIRCULAR
+   8	 PORTS 6
+   9	 PORT 1
+  10	 AMPLITUDE 33
+  11	 PHASE_SHAPING 435
+  12	 PHASE_POL_ARRANG 571
+  13	 PORT 2
+  14	 AMPLITUDE 19
+  15	 PHASE_POL_ARRANG 526 deg
+  16	 PORT 3
+  17	 AMPLITUDE 27
+  18	 PHASE_POL_ARRANG 394
+  19	 PORT 4
+  20	 POL_ORIENT Y AMPLITUDE 23
+  21	 PHASE_POL_ARRANG 454
+  22	 PORT 5
+  23	 AMPLITUDE 26
+  24	 PHASE_SHAPING 554
+  25	 PHASE_POL_ARRANG 639
+  26	 PORT 6
+  27	 AMPLITUDE 26
+  28	 PHASE_POL_ARRANG 577
+  29	 ADD BLOCK 0 5 -5 0
+  30	 ADD HEXAGON 0 1
+  32	 GROUP_EXCITATION
+  33	 AMPLITUDE SECOND ORDER CENTRE 22 P1_VAL 28 P2_VAL 27 Q1_VAL 23 Q2_VAL 23
+  34	 PHASE ROTATION SEQUENTIAL CCW
+  35	 END
+
+** WARNING B12: GRID step(s) too small for sequential rotation in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:65.000000,45.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+** WARNING 7: User name too long: 
+** ERROR  B8: Error in group geometry; GROUP: testgroup

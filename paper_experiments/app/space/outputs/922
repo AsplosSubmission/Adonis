@@ -1,0 +1,24 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 35
+   6	 POLARIZATION CIRCULAR
+   7	 ADD XX
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 22
+  11	 PHASE UNIFORM -31
+  12	 END
+
+Error occurred at line 7
+   7:	 ADD XX
+% 	     ^
+** ERROR 62: Incorrect ADD statement. 
+
+** ERROR 62: Incorrect ADD statement.
+** ERROR 82: Incorrect GROUP definition, group: testgroup

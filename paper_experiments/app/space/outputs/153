@@ -1,0 +1,40 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 63
+   7	 PORTS 5
+   8	 PORT 1
+   9	 AMPLITUDE 60
+  10	 PHASE_POL_ARRANG 482
+  11	 PORT 2
+  12	 AMPLITUDE 10
+  13	 PHASE_SCANNING 773
+  14	 PHASE_POL_ARRANG 698
+  15	 PORT 3
+  16	 AMPLITUDE 24
+  17	 PHASE_SHAPING 544
+  18	 PHASE_SCANNING 562
+  19	 PHASE_POL_ARRANG 520
+  20	 PORT 4
+  21	 AMPLITUDE 23
+  22	 PHASE_POL_ARRANG 590
+  23	 PORT 5
+  24	 POL_ORIENT X AMPLITUDE 22
+  25	 PHASE_POL_ARRANG 611
+  26	 ADD NODE -5 2
+  28	 GROUP_EXCITATION
+  29	 AMPLITUDE SECOND ORDER 20 30 20 30 26
+  30	 PHASE UNIFORM 131
+  31	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:126.000000,126.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+NULL POINTER!

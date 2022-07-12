@@ -1,0 +1,64 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 46
+   6	 POLARIZATION CIRCULAR
+   7	 PORTS 5
+   8	 PORT 1
+   9	 AMPLITUDE 27
+  10	 PHASE_SCANNING 529
+  11	 PHASE_POL_ARRANG 697
+  12	 PORT 2
+  13	 AMPLITUDE 29
+  14	 PHASE_POL_ARRANG 603
+  15	 PORT 3
+  16	 AMPLITUDE 21
+  17	 PHASE_SCANNING 578
+  18	 PORT 4
+  19	 AMPLITUDE 29
+  20	 PHASE_SCANNING 528
+  21	 PHASE_POL_ARRANG 494
+  22	 PORT 5
+  23	 AMPLITUDE 20
+  24	 PHASE_POL_ARRANG 695
+  25	 ADD BLOCK 4 3 4 3
+  27	 GROUP_EXCITATION
+  28	 AMPLITUDE UNIFORM 26
+  29	 PHASE UNIFORM 243
+  30	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:92.000000,92.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr987.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   5
+   5
+   1 	  368.00   276.00     0.00     0.00     0.00     0.00
+   1 	  368.00   276.00     0.00     0.00     0.00     0.00
+   	  702.00   940.00   529.00    90.00
+   	  702.00   940.00   529.00    90.00
+   	  754.00   846.00     0.00    90.00
+   	  754.00   846.00     0.00    90.00
+   	  546.00   243.00   578.00    90.00
+   	  546.00   243.00   578.00    90.00
+   	  754.00   737.00   528.00    90.00
+   	  754.00   737.00   528.00    90.00
+   	  520.00   938.00     0.00    90.00
+   	  520.00   938.00     0.00    90.00
+
+** End writing output file: ../inputs/gr987.dat 

@@ -1,0 +1,52 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 104 QSTEP 77
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR PDIM 19 QDIM 81
+   7	 POLARIZATION LINEAR
+   8	 PORTS 8
+   9	 PORT 1
+  10	 AMPLITUDE 27 mm
+  11	 PHASE_POL_ARRANG 588
+  12	 PORT 2
+  13	 AMPLITUDE 24
+  14	 PHASE_SHAPING 639
+  15	 PHASE_POL_ARRANG 544
+  16	 PORT 3
+  17	 POL_ORIENT X AMPLITUDE 28
+  18	 PORT 4
+  19	 AMPLITUDE 26
+  20	 PHASE_SCANNING 430
+  21	 PORT 5
+  22	 AMPLITUDE 31
+  23	 PHASE_SCANNING 458
+  24	 PORT 6
+  25	 POL_ORIENT Y AMPLITUDE 25
+  26	 PHASE_SCANNING 708
+  27	 PHASE_POL_ARRANG 304
+  28	 PORT 7
+  29	 AMPLITUDE 20
+  30	 PORT 8
+  31	 POL_ORIENT X AMPLITUDE 26
+  32	 PHASE_POL_ARRANG 445
+  33	 ADD BLOCK 16 6 0 8
+  35	 GROUP_EXCITATION
+  36	 AMPLITUDE UNIFORM 19
+  37	 PHASE ROTATION SEQUENTIAL CCW ANGLE -28 -8 deg
+  38	 PHASE -19 86
+  39	 END
+
+Error occurred at line 10
+  10:	 AMPLITUDE 27 mm
+% 	              ^
+** ERROR 1: Keyword expected: PORT
+
+** ERROR 46: Too few PORT definitions. 
+
+** ERROR 49: Incorrect element PORTS definition.
+** ERROR 24: Incorrect ELEMENT definition.

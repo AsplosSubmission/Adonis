@@ -1,0 +1,37 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 65
+   7	 ADD BLOCK -3 -1 -3 -1
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 23
+  11	 PHASE UNIFORM -88
+  12	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:130.000000,130.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr934.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	 -455.00  -112.58     0.00     0.00     0.00     0.00
+   1 	 -455.00  -112.58     0.00     0.00     0.00     0.00
+   	   23.00   -88.00     0.00    90.00
+   	   23.00   -88.00     0.00    90.00
+
+** End writing output file: ../inputs/gr934.dat 

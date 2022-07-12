@@ -1,0 +1,25 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR ANGLE 40 PSTEP 53 QSTEP 50 mm
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 60
+   7	 ADD NODE -4 2
+   8	 ADD BLOCK -1 0 -4 1
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 21
+  12	 PHASE XX
+  13	 END
+
+Error occurred at line 12
+  12:	 PHASE XX
+% 	       ^
+** ERROR 73: Incorrect POINTING direction definition. 
+
+** ERROR 78: Incorrect POINTING phase definition.
+** ERROR 80: Incorrect PHASE excitation definition.
+** ERROR 82: Incorrect GROUP definition, group:  

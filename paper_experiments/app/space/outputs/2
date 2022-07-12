@@ -1,0 +1,28 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE STEP 67
+   4	 ELEMENT
+   5	 GEOMETRY XX
+   8	 PORTS 2
+   9	 PORT 1
+  10	 AMPLITUDE 24
+  11	 PHASE_POL_ARRANG 580
+  12	 PORT 2
+  13	 AMPLITUDE 25
+  14	 PHASE_POL_ARRANG 661
+  15	 ADD HEXAGON 5 -10
+  16	 ADD HEXAGON 10 -4
+  17	 ADD BLOCK 2 2 -1 0
+  18	 ADD BLOCK 4 8 -3 1
+  20	 GROUP_EXCITATION
+  21	 AMPLITUDE UNIFORM 33
+  22	 PHASE UNIFORM -5 deg
+  23	 END
+
+** ERROR 34: Incorrect element GEOMETRY definition.
+** ERROR 24: Incorrect ELEMENT definition.

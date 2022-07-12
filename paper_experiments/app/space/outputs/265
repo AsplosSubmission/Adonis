@@ -1,0 +1,23 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL STEP 8
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 58
+   6	 POLARIZATION LINEAR ORIENTATION Y rad
+   7	 ADD BLOCK -5 8 -4 -10
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 29
+  11	 PHASE UNIFORM -6 deg
+  12	 END
+
+Error occurred at line 6
+   6:	 POLARIZATION LINEAR ORIENTATION Y rad
+% 	                                   ^
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

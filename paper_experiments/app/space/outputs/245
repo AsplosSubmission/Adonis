@@ -1,0 +1,46 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 43
+   7	 ADD BLOCK -5 3 -3 3
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 26
+  11	 PHASE UNIFORM 51
+  12	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:86.000000,86.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr245.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   3
+   3
+   1
+   1
+   1 	 -301.00   223.43     0.00     0.00     0.00     0.00
+   1 	 -301.00   223.43     0.00     0.00     0.00     0.00
+   	   26.00    51.00     0.00    90.00
+   	   26.00    51.00     0.00    90.00
+   2 	 -215.00   223.43     0.00     0.00     0.00     0.00
+   2 	 -215.00   223.43     0.00     0.00     0.00     0.00
+   	   26.00    51.00     0.00    90.00
+   	   26.00    51.00     0.00    90.00
+   3 	 -129.00   223.43     0.00     0.00     0.00     0.00
+   3 	 -129.00   223.43     0.00     0.00     0.00     0.00
+   	   26.00    51.00     0.00    90.00
+   	   26.00    51.00     0.00    90.00
+
+** End writing output file: ../inputs/gr245.dat 

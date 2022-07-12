@@ -1,0 +1,29 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL XX
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 41
+   7	 PORTS 1
+   8	 PORT 1
+   9	 POL_ORIENT Y AMPLITUDE 33 mm
+  10	 PHASE_POL_ARRANG 607 deg
+  11	 ADD NODE 10 -2 ORIENTATION 32 38 9
+  12	 ADD BLOCK -3 6 -4 -2
+  14	 GROUP_EXCITATION
+  15	 AMPLITUDE SECOND ORDER CENTRE 26 P1_VAL 29 P2_VAL 25 Q1_VAL 20 Q2_VAL 20
+  16	 PHASE ROTATION SEQUENTIAL CCW
+  17	 END
+
+Error occurred at line 3
+   3:	 GRID HEXAGONAL XX
+% 	                ^
+** ERROR 67: Missing ELEMENT definition after GRID definition. 
+
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

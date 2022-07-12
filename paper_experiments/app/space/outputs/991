@@ -1,0 +1,41 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 37 58
+   8	 ADD BLOCK -4 -2 -4 -3
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE SECOND ORDER CENTRE 23 P1_VAL 23 P2_VAL 23 Q1_VAL 17 Q2_VAL 20
+  12	 PHASE ROTATION SEQUENTIAL CCW ANGLE START 77 STEP 16
+  14	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:68.796802,68.796802
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr991.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   2
+   2
+   1
+   1
+   1 	 -275.19  -206.39     0.00     0.00    93.00     0.00
+   1 	 -275.19  -206.39     0.00     0.00    93.00     0.00
+   	   17.00    93.00     0.00    90.00
+   	   17.00    93.00     0.00    90.00
+   2 	 -275.19  -137.59     0.00     0.00    77.00     0.00
+   2 	 -275.19  -137.59     0.00     0.00    77.00     0.00
+   	   20.00    77.00     0.00    90.00
+   	   20.00    77.00     0.00    90.00
+
+** End writing output file: ../inputs/gr991.dat 

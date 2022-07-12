@@ -1,0 +1,22 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 70
+   6	 POLARIZATION CIRCULAR RH
+   8	 ADD NODE -6 -4
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE SECOND ORDER CENTRE 29 P1_VAL 25 P2_VAL 33 Q1_VAL 24 Q2_VAL 25
+  12	 PHASE UNIFORM 0
+  13	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:140.000000,140.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+NULL POINTER!

@@ -1,0 +1,17 @@
+ERROR Too many bits requested (2001 > 2000)
+ERROR Too many discrete inputs requested (2001 > 2000)
+ERROR Too many registers requested (126 > 125)
+ERROR Too many input registers requested (126 > 125)
+ERROR Writing too many bits (1969 > 1968)
+ERROR Trying to write to too many registers (124 > 123)
+Connecting to 127.0.0.1:1502
+** UNIT TESTING **
+1/1 No response timeout modification on connect: OK
+
+TEST TOO MANY DATA ERROR:
+* modbus_read_bits: OK
+* modbus_read_input_bits: OK
+* modbus_read_registers: OK
+* modbus_read_input_registers: OK
+* modbus_write_bits: OK
+* modbus_write_registers: OK

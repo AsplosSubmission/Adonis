@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL STEP 66
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 52
+   6	 POLARIZATION LINEAR
+   7	 ADD HEXAGON 10 -4
+   8	 ADD NODE -5 -1
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 19
+  12	 PHASE ROTATION SEQUENTIAL CCW
+  13	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:66.000000,66.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR B11: SEQUENTIAL ROTATION not allowed on irregular shaped groups.
+** ERROR  B9: PHASE excitation error in GROUP: testgroup

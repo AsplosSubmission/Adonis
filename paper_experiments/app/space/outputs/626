@@ -1,0 +1,25 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 62
+   6	 POLARIZATION CIRCULAR
+   7	 ADD HEXAGON 5 -2
+   8	 ADD BLOCK 3 -10 -6 5
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE SECOND ORDER 23 23 26 35 21
+  12	 PHASE UNIFORM 52
+  13	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:124.000000,124.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR  B5: SECOND ORDER law not allowed on irregular groups.
+** ERROR  B6: AMPLITUDE excitation error in GROUP: testgroup

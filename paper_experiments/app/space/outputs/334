@@ -1,0 +1,21 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 75
+   7	 ADD NODE 0 -3 ORIENTATION THETA 1 PHI 13 PSI 58
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE SECOND ORDER 29 34 26 19 20
+  11	 PHASE ROTATION SEQUENTIAL
+  12	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:150.000000,150.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+NULL POINTER!

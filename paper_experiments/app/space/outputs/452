@@ -1,0 +1,47 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 80 QSTEP 60
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 63
+   6	 POLARIZATION LINEAR ORIENTATION X
+   7	 ADD BLOCK 5 0 3 0
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 17
+  11	 PHASE UNIFORM -43
+  12	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:80.000000,60.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr452.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   3
+   3
+   1
+   1
+   1 	  240.00     0.00     0.00     0.00     0.00     0.00
+   1 	  240.00     0.00     0.00     0.00     0.00     0.00
+   	   17.00   -43.00     0.00     0.00
+   	   17.00   -43.00     0.00     0.00
+   2 	  320.00     0.00     0.00     0.00     0.00     0.00
+   2 	  320.00     0.00     0.00     0.00     0.00     0.00
+   	   17.00   -43.00     0.00     0.00
+   	   17.00   -43.00     0.00     0.00
+   3 	  400.00     0.00     0.00     0.00     0.00     0.00
+   3 	  400.00     0.00     0.00     0.00     0.00     0.00
+   	   17.00   -43.00     0.00     0.00
+   	   17.00   -43.00     0.00     0.00
+
+** End writing output file: ../inputs/gr452.dat 

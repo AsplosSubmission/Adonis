@@ -1,0 +1,22 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID XX
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 50
+   7	 ADD BLOCK 0 -5 0 4
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 19
+  11	 PHASE UNIFORM 102
+  12	 END
+
+Error occurred at line 3
+   3:	 GRID XX
+% 	      ^
+** ERROR 16: Incorrect GRID definition. 
+
+** ERROR 16: Incorrect GRID definition.

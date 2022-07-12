@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 54
+   6	 POLARIZATION CIRCULAR
+   7	 ADD NODE 7 5
+   8	 ADD BLOCK -1 -8 -2 -3
+   9	 ADD BLOCK -5 5 -8 -5
+  11	 GROUP_EXCITATION
+  12	 AMPLITUDE UNIFORM 31
+  13	 PHASE ROTATION SEQUENTIAL CW
+  14	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:108.000000,108.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR B11: SEQUENTIAL ROTATION not allowed on irregular shaped groups.
+** ERROR  B9: PHASE excitation error in GROUP: testgroup

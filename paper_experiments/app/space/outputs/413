@@ -1,0 +1,42 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 100 92
+   7	 POLARIZATION LINEAR ORIENTATION Y
+   8	 PORTS 6
+   9	 PORT 1
+  10	 AMPLITUDE 32
+  11	 PHASE_SCANNING 375
+  12	 PHASE_POL_ARRANG 560
+  13	 PORT 2
+  14	 AMPLITUDE 28
+  15	 PORT 3
+  16	 POL_ORIENT X AMPLITUDE 22
+  17	 PHASE_POL_ARRANG 630
+  18	 PORT 4
+  19	 POL_ORIENT X AMPLITUDE 24
+  20	 PORT 5
+  21	 AMPLITUDE 27
+  22	 PHASE_POL_ARRANG 552
+  23	 PORT 6
+  24	 AMPLITUDE 22
+  25	 PHASE_SCANNING 491 deg
+  26	 ADD HEXAGON 0 6
+  27	 ADD BLOCK -4 4 8 -5
+  29	 GROUP_EXCITATION
+  30	 AMPLITUDE UNIFORM 19
+  31	 PHASE UNIFORM 95
+  32	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:100.000000,92.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+** WARNING 7: User name too long: 
+** ERROR  B8: Error in group geometry; GROUP: testgroup

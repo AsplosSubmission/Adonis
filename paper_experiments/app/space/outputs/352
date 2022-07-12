@@ -1,0 +1,28 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 27
+   6	 POLARIZATION LINEAR
+   7	 ADD XX
+   8	 ADD HEXAGON -10 -1
+   9	 ADD BLOCK 7 4 -5 -1
+  10	 ADD BLOCK 3 14 -3 4
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE UNIFORM 26
+  14	 PHASE ROTATION SEQUENTIAL CCW ANGLE -16 2 rad
+  15	 PHASE START 179 STEP -80
+  16	 END
+
+Error occurred at line 7
+   7:	 ADD XX
+% 	     ^
+** ERROR 62: Incorrect ADD statement. 
+
+** ERROR 62: Incorrect ADD statement.
+** ERROR 82: Incorrect GROUP definition, group: testgroup

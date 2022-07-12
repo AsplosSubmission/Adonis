@@ -1,0 +1,21 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 60
+   7	 ADD HEXAGON 3 3
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE SECOND ORDER 25 27 35 26 26 mm
+  11	 PHASE SECOND ORDER 38 27 24 20 26
+  12	 END
+
+** ERROR 80: Incorrect PHASE excitation definition.
+Error occurred at line 9
+   9:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

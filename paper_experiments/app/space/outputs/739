@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 51 QSTEP 48 mm
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 54 65
+   8	 ADD BLOCK -7 -1 1 1
+   9	 ADD BLOCK 2 -5 -10 -4
+  10	 ADD NODE 5 -2
+  11	 ADD HEXAGON -8 -4
+  13	 GROUP_EXCITATION
+  14	 AMPLITUDE SECOND ORDER 34 28 22 32 26
+  15	 PHASE ROTATION SEQUENTIAL
+  16	 END
+
+** WARNING B12: GRID step(s) too small for sequential rotation in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:51.000000,48.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+** WARNING 7: User name too long: 
+** ERROR  B8: Error in group geometry; GROUP: testgroup

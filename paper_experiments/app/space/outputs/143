@@ -1,0 +1,25 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 96 mm
+   6	 POLARIZATION CIRCULAR
+   7	 ADD NODE 7 -3 ORIENTATION THETA 34 PHI 17 PSI 17 deg
+   8	 ADD BLOCK 0 -3 0 6
+   9	 ADD BLOCK -1 4 0 -2
+  10	 ADD BLOCK -7 -4 0 -1
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE XX
+  14	 PHASE SECOND ORDER CENTRE 30 P1_VAL 32 P2_VAL 26 Q1_VAL 19 Q2_VAL 24
+  15	 END
+
+** ERROR 79: Incorrect AMPLITUDE excitation definition.
+Error occurred at line 12
+  12:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

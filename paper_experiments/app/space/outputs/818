@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL STEP 72
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 75
+   7	 ADD NODE 2 -1
+   8	 ADD XX
+   9	 ADD HEXAGON -4 -1
+  11	 GROUP_EXCITATION
+  12	 AMPLITUDE UNIFORM 28
+  13	 PHASE SECOND ORDER 22 27 25 32 21
+  14	 END
+
+Error occurred at line 8
+   8:	 ADD XX
+% 	     ^
+** ERROR 62: Incorrect ADD statement. 
+
+** ERROR 62: Incorrect ADD statement.
+** ERROR 64: Incorrect ADD or REMOVE statement.
+** ERROR 82: Incorrect GROUP definition, group: testgroup

@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR PDIM 45 QDIM 10
+   7	 POLARIZATION LINEAR
+   8	 PORTS 1
+   9	 PORT 1
+  10	 AMPLITUDE 30
+  11	 PHASE_SCANNING 543 deg
+  12	 PHASE_POL_ARRANG 629
+  13	 ADD BLOCK -7 1 -7 1
+  15	 GROUP_EXCITATION
+  16	 AMPLITUDE UNIFORM 32
+  17	 PHASE SECOND ORDER CENTRE 34 P1_VAL 31 P2_VAL 29 Q1_VAL 27 Q2_VAL 25 mm
+  18	 END
+
+Error occurred at line 17
+  17:	 PHASE SECOND ORDER CENTRE 34 P1_VAL 31 P2_VAL 29 Q1_VAL 27 Q2_VAL 25 mm
+% 	                                                                      ^
+** ERROR 1: Keyword expected: END

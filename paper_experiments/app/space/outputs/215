@@ -1,0 +1,24 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 66
+   6	 POLARIZATION CIRCULAR
+   7	 ADD NODE 0 2
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE SECOND ORDER 21 32 26 23 29
+  11	 PHASE ROTATION SEQUENTIAL ANGLE START -91 STEP -62
+  12	 PHASE 70 -60
+  13	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:132.000000,132.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+NULL POINTER!

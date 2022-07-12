@@ -1,0 +1,32 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL STEP 115
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 87
+   6	 POLARIZATION CIRCULAR
+   7	 PORTS 2
+   8	 PORT 1
+   9	 AMPLITUDE 34
+  11	 PHASE_POL_ARRANG 607 deg
+  12	 PORT 2
+  13	 AMPLITUDE 60
+  15	 PHASE_SHAPING 564
+  16	 ADD HEXAGON 10 6
+  18	 GROUP_EXCITATION
+  19	 AMPLITUDE UNIFORM 21
+  20	 PHASE ROTATION SEQUENTIAL ANGLE -101 -74
+  22	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:115.000000,115.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR B10: SEQUENTIAL ROTATION not allowed to multiport elements.
+** ERROR  B9: PHASE excitation error in GROUP: testgroup

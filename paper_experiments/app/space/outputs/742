@@ -1,0 +1,21 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 67
+   7	 ADD NODE 6 0 ORIENTATION 35 -4 20
+   9	 GROUP_EXCITATION
+  10	 XX UNIFORM 23
+  11	 PHASE ROTATION SEQUENTIAL CCW
+  12	 END
+
+** ERROR 79: Incorrect AMPLITUDE excitation definition.
+Error occurred at line 9
+   9:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

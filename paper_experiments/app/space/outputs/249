@@ -1,0 +1,27 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE STEP 55
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 92
+   7	 ADD BLOCK 3 -2 6 3
+   8	 ADD BLOCK -7 1 -2 -1
+   9	 ADD BLOCK 9 4 1 0
+  10	 ADD BLOCK -4 3 3 0
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE UNIFORM 24
+  14	 PHASE SECOND ORDER 34 19 25 29 29
+  15	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:55.000000,55.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR  B5: SECOND ORDER law not allowed on irregular groups.
+** ERROR  B9: PHASE excitation error in GROUP: testgroup

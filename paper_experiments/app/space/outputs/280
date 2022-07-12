@@ -1,0 +1,41 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR PDIM 17 QDIM 25
+   7	 POLARIZATION LINEAR ORIENTATION X deg
+   8	 PORTS 6
+   9	 PORT 1
+  10	 POL_ORIENT Y AMPLITUDE 23
+  11	 PHASE_POL_ARRANG 636
+  12	 PORT 2
+  13	 POL_ORIENT -3 AMPLITUDE 26
+  14	 PHASE_POL_ARRANG 544
+  15	 PORT 3
+  16	 POL_ORIENT 22 AMPLITUDE 26
+  17	 PORT 4
+  18	 POL_ORIENT X AMPLITUDE 24 mm
+  19	 PHASE_SHAPING 420
+  20	 PORT 5
+  21	 POL_ORIENT Y AMPLITUDE 31
+  22	 PORT 6
+  23	 POL_ORIENT -9 AMPLITUDE 22
+  24	 PHASE_SHAPING 650
+  25	 PHASE_POL_ARRANG 470
+  26	 ADD BLOCK 2 0 -4 5
+  28	 GROUP_EXCITATION
+  29	 AMPLITUDE UNIFORM 25
+  30	 PHASE UNIFORM -70
+  31	 END
+
+Error occurred at line 7
+   7:	 POLARIZATION LINEAR ORIENTATION X deg
+% 	                                   ^
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

@@ -1,0 +1,37 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 74 QSTEP 75
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 42 15
+   8	 ADD NODE -5 1 ORIENTATION 17 -5 35
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 31
+  12	 PHASE ROTATION SEQUENTIAL
+  13	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:74.000000,75.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr704.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	 -370.00    75.00     0.00    17.00    -5.00    35.00
+   1 	 -370.00    75.00     0.00    17.00    -5.00    35.00
+   	   31.00     0.00     0.00    90.00
+   	   31.00     0.00     0.00    90.00
+
+** End writing output file: ../inputs/gr704.dat 

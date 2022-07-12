@@ -1,0 +1,39 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE STEP 54
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 61 86 dm
+   7	 POLARIZATION LINEAR ORIENTATION 2
+   8	 ADD NODE -8 -6
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 26
+  12	 PHASE SECOND ORDER 33 27 19 27 27
+  13	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:54.000000,54.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr687.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	 -432.00  -324.00     0.00     0.00     0.00     0.00
+   1 	 -432.00  -324.00     0.00     0.00     0.00     0.00
+   	   26.00    33.00     0.00     2.00
+   	   26.00    33.00     0.00     2.00
+
+** End writing output file: ../inputs/gr687.dat 

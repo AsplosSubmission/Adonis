@@ -1,0 +1,38 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 55 65
+   7	 POLARIZATION LINEAR ORIENTATION 16
+   8	 ADD NODE -4 0
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE SECOND ORDER 25 17 20 22 25
+  12	 PHASE ROTATION SEQUENTIAL
+  13	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:85.146932,85.146932
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr28.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	 -340.59     0.00     0.00     0.00     0.00     0.00
+   1 	 -340.59     0.00     0.00     0.00     0.00     0.00
+   	   25.00     0.00     0.00    16.00
+   	   25.00     0.00     0.00    16.00
+
+** End writing output file: ../inputs/gr28.dat 

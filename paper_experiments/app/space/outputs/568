@@ -1,0 +1,37 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 97
+   7	 PORTS 5
+   8	 PORT 1
+   9	 AMPLITUDE 74
+  10	 PORT 2
+  11	 POL_ORIENT Y deg
+  12	 AMPLITUDE 39
+  13	 PORT 3
+  14	 AMPLITUDE 31
+  15	 PHASE_SHAPING 463
+  16	 PHASE_POL_ARRANG 740
+  17	 PORT 4
+  18	 POL_ORIENT X AMPLITUDE 29
+  19	 PHASE_POL_ARRANG 540
+  20	 PORT 5
+  21	 AMPLITUDE 27
+  22	 PHASE_SHAPING 437
+  23	 PHASE_POL_ARRANG 685
+  24	 ADD BLOCK 1 -2 -4 -5
+  26	 GROUP_EXCITATION
+  27	 AMPLITUDE UNIFORM 19 dm
+  28	 PHASE UNIFORM 21 deg
+  29	 END
+
+** ERROR 39: Incorrect element PORT AMPLITUDE definition.
+** ERROR 47: Incorrect definition at PORT: 2
+** ERROR 49: Incorrect element PORTS definition.
+** ERROR 24: Incorrect ELEMENT definition.

@@ -1,0 +1,21 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY XX
+   8	 ADD HEXAGON -7 0
+   9	 ADD BLOCK 6 1 -1 0
+  10	 ADD BLOCK 4 0 -3 0
+  11	 ADD HEXAGON -6 -2
+  13	 GROUP_EXCITATION
+  14	 AMPLITUDE UNIFORM 36
+  15	 PHASE UNIFORM 128
+  16	 END
+
+** ERROR 34: Incorrect element GEOMETRY definition.
+** ERROR 24: Incorrect ELEMENT definition.

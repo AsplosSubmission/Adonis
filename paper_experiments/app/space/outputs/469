@@ -1,0 +1,27 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR XX
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 57
+   7	 ADD HEXAGON -3 4
+   8	 ADD BLOCK 0 0 4 8
+   9	 ADD BLOCK -4 -4 4 1
+  10	 ADD HEXAGON 1 -4
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE UNIFORM 31
+  14	 PHASE UNIFORM -49
+  15	 END
+
+Error occurred at line 3
+   3:	 GRID TRIANGULAR XX
+% 	                 ^
+** ERROR 67: Missing ELEMENT definition after GRID definition. 
+
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

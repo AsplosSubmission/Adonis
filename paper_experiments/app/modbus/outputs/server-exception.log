@@ -1,0 +1,106 @@
+Illegal nb of values 0 in read_bits (max 2000)
+Illegal nb of values 2001 in read_bits (max 2000)
+Illegal nb of values 0 in read_input_bits (max 2000)
+Illegal nb of values 2001 in read_input_bits (max 2000)
+Illegal nb of values 0 in read_registers (max 125)
+Illegal nb of values 126 in read_registers (max 125)
+Illegal nb of values 0 in read_input_registers (max 125)
+Illegal nb of values 126 in read_input_registers (max 125)
+Illegal nb of values (W1, R0) in write_and_read_registers (max W121, R125)
+Illegal nb of values (W1, R126) in write_and_read_registers (max W121, R125)
+Illegal number of values 0 in write_registers (max 123)
+Illegal number of values 124 in write_registers (max 123)
+Illegal number of values 0 in write_bits (max 1968)
+Illegal number of values 1969 in write_bits (max 1968)
+Illegal number of values 0 in write_registers (max 123)
+Illegal number of values 123 in write_registers (max 123)
+Illegal number of values 0 in write_bits (max 1968)
+Illegal number of values 1968 in write_bits (max 1968)
+Unknown Modbus function code: 0x42
+ERROR Connection reset by peer: read
+The client connection from 127.0.0.1 is accepted
+Waiting for an indication...
+<00><01><00><00><00><06><FF><03><01><70><00><03>
+Reply to this special register address by an exception
+[00][01][00][00][00][03][FF][83][06]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><03><01><60><00><05>
+[00][00][00][00][00][0D][FF][03][0A][00][00][00][00][00][00][00][00][00][00]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><01><01><60><00><00>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][81][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><01><01><60><07><D1>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][81][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><02><01><60><00><00>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][82][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><02><01><60><07><D1>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][82][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><03><01><60><00><00>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][83][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><03><01><60><00><7E>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][83][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><04><01><60><00><00>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][84][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><04><01><60><00><7E>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][84][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><17><01><60><00><00><00><00><00><01><02><12><34>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][97][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><17><01><60><00><7E><00><00><00><01><02><12><34>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][97][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><10><01><60><00><00><00>
+Bytes flushed (6)
+[00][00][00][00][00][03][FF][90][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><10><01><60><00><7C><06><02><2B><00><01><00><64>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][90][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><0F><01><60><00><00><00>
+Bytes flushed (6)
+[00][00][00][00][00][03][FF][8F][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><0F><01><60><07><B1><06><02><2B><00><01><00><64>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][8F][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><10><01><60><00><00><00>
+Bytes flushed (6)
+[00][00][00][00][00][03][FF][90][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><10><01><60><00><7B><06><02><2B><00><01><00><64>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][90][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><0F><01><60><00><00><00>
+Bytes flushed (6)
+[00][00][00][00][00][03][FF][8F][03]
+Waiting for an indication...
+<00><00><00><00><00><0D><FF><0F><01><60><07><B0><06><02><2B><00><01><00><64>
+Bytes flushed (0)
+[00][00][00][00][00][03][FF][8F][03]
+Waiting for an indication...
+<00><00><00><00><00><06><FF><42>
+Bytes flushed (4)
+[00][00][00][00][00][03][FF][C2][01]
+Waiting for an indication...
+Quit the loop: Connection reset by peer

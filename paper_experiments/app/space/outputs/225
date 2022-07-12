@@ -1,0 +1,55 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 28 85
+   8	 PORTS 4
+   9	 PORT 1
+  10	 AMPLITUDE 24
+  11	 PHASE_POL_ARRANG 544
+  12	 PORT 2
+  13	 POL_ORIENT 32 AMPLITUDE 25
+  14	 PHASE_POL_ARRANG 579
+  15	 PORT 3
+  16	 AMPLITUDE 26
+  17	 PHASE_POL_ARRANG 527
+  18	 PORT 4
+  19	 AMPLITUDE 23
+  20	 ADD BLOCK 3 0 3 0
+  22	 GROUP_EXCITATION
+  23	 AMPLITUDE UNIFORM 29
+  24	 PHASE UNIFORM 90
+  25	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:28.000000,85.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr225.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   4
+   4
+   1 	   84.00     0.00     0.00     0.00     0.00     0.00
+   1 	   84.00     0.00     0.00     0.00     0.00     0.00
+   	  696.00   634.00     0.00    90.00
+   	  696.00   634.00     0.00    90.00
+   	  725.00   669.00     0.00    32.00
+   	  725.00   669.00     0.00    32.00
+   	  754.00   617.00     0.00    90.00
+   	  754.00   617.00     0.00    90.00
+   	  667.00    90.00     0.00    90.00
+   	  667.00    90.00     0.00    90.00
+
+** End writing output file: ../inputs/gr225.dat 

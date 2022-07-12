@@ -1,0 +1,50 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 41 QSTEP 27
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 21 73
+   8	 ADD BLOCK -7 -2 -7 1
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 29
+  12	 PHASE ROTATION SEQUENTIAL
+  13	 END
+
+** WARNING B12: GRID step(s) too small for sequential rotation in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:41.000000,27.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr609.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   4
+   4
+   1
+   1
+   1 	 -287.00   -54.00     0.00     0.00  -270.00     0.00
+   1 	 -287.00   -54.00     0.00     0.00  -270.00     0.00
+   	   29.00  -270.00     0.00    90.00
+   	   29.00  -270.00     0.00    90.00
+   2 	 -287.00   -27.00     0.00     0.00  -180.00     0.00
+   2 	 -287.00   -27.00     0.00     0.00  -180.00     0.00
+   	   29.00  -180.00     0.00    90.00
+   	   29.00  -180.00     0.00    90.00
+   3 	 -287.00     0.00     0.00     0.00   -90.00     0.00
+   3 	 -287.00     0.00     0.00     0.00   -90.00     0.00
+   	   29.00   -90.00     0.00    90.00
+   	   29.00   -90.00     0.00    90.00
+   4 	 -287.00    27.00     0.00     0.00     0.00     0.00
+   4 	 -287.00    27.00     0.00     0.00     0.00     0.00
+   	   29.00     0.00     0.00    90.00
+   	   29.00     0.00     0.00    90.00
+
+** End writing output file: ../inputs/gr609.dat 

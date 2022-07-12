@@ -1,0 +1,26 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 84 22
+   7	 POLARIZATION LINEAR ORIENTATION X deg
+   8	 ADD NODE 7 2
+   9	 ADD BLOCK -3 0 9 9
+  10	 ADD BLOCK 4 -13 0 -5
+  11	 ADD NODE -2 0
+  13	 GROUP_EXCITATION
+  14	 AMPLITUDE UNIFORM 27 mm
+  15	 PHASE UNIFORM -107
+  16	 END
+
+Error occurred at line 7
+   7:	 POLARIZATION LINEAR ORIENTATION X deg
+% 	                                   ^
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

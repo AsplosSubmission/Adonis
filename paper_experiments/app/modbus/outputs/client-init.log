@@ -1,0 +1,13 @@
+The device string is empty
+The baud rate value must not be zero
+The service string is empty
+Connecting to 127.0.0.1:1502
+** UNIT TESTING **
+1/1 No response timeout modification on connect: OK
+
+TEST INVALID INITIALIZATION:
+OK
+OK
+OK
+
+ALL TESTS PASS WITH SUCCESS.

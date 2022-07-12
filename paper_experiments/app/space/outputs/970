@@ -1,0 +1,50 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL XX
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR 65
+   7	 PORTS 7
+   8	 PORT 1
+   9	 AMPLITUDE 80
+  10	 PHASE_SHAPING 599
+  11	 PHASE_SCANNING 545
+  12	 PHASE_POL_ARRANG 579 deg
+  13	 PORT 2
+  14	 AMPLITUDE 22
+  15	 PHASE_POL_ARRANG 611
+  16	 PORT 3
+  17	 AMPLITUDE 22
+  18	 PHASE_POL_ARRANG 678
+  19	 PORT 4
+  20	 AMPLITUDE 28
+  21	 PHASE_SHAPING 537
+  22	 PORT 5
+  23	 AMPLITUDE 24
+  24	 PHASE_SCANNING 618
+  25	 PORT 6
+  26	 AMPLITUDE 24
+  27	 PHASE_POL_ARRANG 487
+  28	 PORT 7
+  29	 AMPLITUDE 16
+  30	 PHASE_SHAPING 567
+  31	 PHASE_POL_ARRANG 403
+  32	 ADD BLOCK 4 -4 11 2
+  33	 ADD BLOCK -1 3 2 0
+  35	 GROUP_EXCITATION
+  36	 AMPLITUDE UNIFORM 17
+  37	 PHASE UNIFORM 235
+  38	 END
+
+Error occurred at line 3
+   3:	 GRID HEXAGONAL XX
+% 	                ^
+** ERROR 67: Missing ELEMENT definition after GRID definition. 
+
+** ERROR 94: At least one ADD statement is required. 
+
+** ERROR 82: Incorrect GROUP definition, group: testgroup

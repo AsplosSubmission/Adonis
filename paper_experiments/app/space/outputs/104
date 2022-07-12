@@ -1,0 +1,39 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 59
+   6	 POLARIZATION LINEAR
+   7	 ADD NODE -2 -2
+   9	 GROUP_EXCITATION
+  10	 AMPLITUDE UNIFORM 30
+  11	 PHASE UNIFORM -15
+  12	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:118.000000,118.000000
+** Grid ANGLE set to:60.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr104.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   1
+   1
+   1 	 -354.00  -204.38     0.00     0.00     0.00     0.00
+   1 	 -354.00  -204.38     0.00     0.00     0.00     0.00
+   	   30.00   -15.00     0.00    90.00
+   	   30.00   -15.00     0.00    90.00
+
+** End writing output file: ../inputs/gr104.dat 

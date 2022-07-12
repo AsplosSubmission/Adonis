@@ -1,0 +1,40 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID RECTANGULAR PSTEP 44 QSTEP 41 mm
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 57 73 mm
+   8	 PORTS 5
+   9	 PORT 1
+  10	 POL_ORIENT Y AMPLITUDE 29
+  11	 PHASE_POL_ARRANG 425
+  12	 PORT 2
+  13	 AMPLITUDE 15
+  14	 PORT 3
+  15	 POL_ORIENT Y AMPLITUDE 24
+  16	 PHASE_POL_ARRANG 437
+  17	 PORT 4
+  18	 POL_ORIENT X AMPLITUDE 29
+  19	 PORT 5
+  20	 AMPLITUDE 22
+  21	 PHASE_SHAPING 460
+  22	 PHASE_POL_ARRANG 557
+  23	 ADD BLOCK -1 -4 0 -2
+  24	 ADD NODE -9 2 ORIENTATION 10 43 -9
+  26	 GROUP_EXCITATION
+  27	 AMPLITUDE UNIFORM 27
+  28	 PHASE ROTATION SEQUENTIAL
+  29	 END
+
+** WARNING B12: GRID step(s) too small for sequential rotation in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:44.000000,41.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** ERROR B10: SEQUENTIAL ROTATION not allowed to multiport elements.
+** ERROR  B9: PHASE excitation error in GROUP: testgroup

@@ -1,0 +1,84 @@
+Illegal data address 0x0 in read_bits
+Illegal data address 0x156 in read_bits
+Illegal data address 0x0 in read_input_bits
+Illegal data address 0x1DB in read_input_bits
+Illegal data address 0x0 in read_registers
+Illegal data address 0x181 in read_registers
+Illegal data address 0x0 in read_input_registers
+Illegal data address 0x10A in read_input_registers
+Illegal data address 0x0 in write_bit
+Illegal data address 0x155 in write_bit
+Illegal data address 0x0 in write_bits
+Illegal data address 0x17A in write_bits
+Illegal data address 0x0 in write_register
+Illegal data address 0x180 in write_register
+Illegal data address 0x0 in write_registers
+Illegal data address 0x183 in write_registers
+Illegal data address 0x0 in write_register
+Illegal data address 0x180 in write_register
+Illegal data read address 0x0 or write address 0x0 write_and_read_registers
+Illegal data read address 0x183 or write address 0x183 write_and_read_registers
+ERROR Connection reset by peer: read
+The client connection from 127.0.0.1 is accepted
+Waiting for an indication...
+<00><01><00><00><00><06><FF><01><00><00><00><01>
+[00][01][00][00][00][03][FF][81][02]
+Waiting for an indication...
+<00><02><00><00><00><06><FF><01><01><30><00><26>
+[00][02][00][00][00][03][FF][81][02]
+Waiting for an indication...
+<00><03><00><00><00><06><FF><02><00><00><00><01>
+[00][03][00][00][00][03][FF][82][02]
+Waiting for an indication...
+<00><04><00><00><00><06><FF><02><01><C4><00><17>
+[00][04][00][00][00][03][FF][82][02]
+Waiting for an indication...
+<00><05><00><00><00><06><FF><03><00><00><00><01>
+[00][05][00][00][00][03][FF][83][02]
+Waiting for an indication...
+<00><06><00><00><00><06><FF><03><01><60><00><21>
+[00][06][00][00][00][03][FF][83][02]
+Waiting for an indication...
+<00><07><00><00><00><06><FF><04><00><00><00><01>
+[00][07][00][00][00][03][FF][84][02]
+Waiting for an indication...
+<00><08><00><00><00><06><FF><04><01><08><00><02>
+[00][08][00][00][00][03][FF][84][02]
+Waiting for an indication...
+<00><09><00><00><00><06><FF><05><00><00><FF><00>
+[00][09][00][00][00][03][FF][85][02]
+Waiting for an indication...
+<00><0A><00><00><00><06><FF><05><01><55><FF><00>
+[00][0A][00][00][00][03][FF][85][02]
+Waiting for an indication...
+<00><0B><00><00><00><08><FF><0F><00><00><00><01><01><00>
+[00][0B][00][00][00][03][FF][8F][02]
+Waiting for an indication...
+<00><0C><00><00><00><0C><FF><0F><01><55><00><25><05><00><00><00><00><00>
+[00][0C][00][00][00][03][FF][8F][02]
+Waiting for an indication...
+<00><0D><00><00><00><06><FF><06><00><00><00><00>
+[00][0D][00][00][00][03][FF][86][02]
+Waiting for an indication...
+<00><0E><00><00><00><06><FF><06><01><80><00><00>
+[00][0E][00][00][00][03][FF][86][02]
+Waiting for an indication...
+<00><0F><00><00><00><09><FF><10><00><00><00><01><02><00><00>
+[00][0F][00][00][00][03][FF][90][02]
+Waiting for an indication...
+<00><10><00><00><00><0D><FF><10><01><80><00><03><06><00><00><00><00><00><00>
+[00][10][00][00][00][03][FF][90][02]
+Waiting for an indication...
+<00><11><00><00><00><08><FF><16><00><00><00><F2><00><25>
+[00][11][00][00][00][03][FF][96][02]
+Waiting for an indication...
+<00><12><00><00><00><08><FF><16><01><80><00><F2><00><25>
+[00][12][00][00][00][03][FF][96][02]
+Waiting for an indication...
+<00><13><00><00><00><0D><FF><17><00><00><00><01><00><00><00><01><02><00><00>
+[00][13][00][00][00][03][FF][97][02]
+Waiting for an indication...
+<00><14><00><00><00><11><FF><17><01><80><00><03><01><80><00><03><06><00><00><00><00><00><00>
+[00][14][00][00][00][03][FF][97][02]
+Waiting for an indication...
+Quit the loop: Connection reset by peer

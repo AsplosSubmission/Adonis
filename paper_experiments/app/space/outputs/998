@@ -1,0 +1,46 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE STEP 35
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 17 50
+   8	 PORTS 6
+   9	 PORT 1
+  10	 AMPLITUDE 23
+  11	 PHASE_POL_ARRANG 571
+  12	 PORT 2
+  13	 AMPLITUDE 16
+  14	 PHASE_SCANNING 624
+  15	 PHASE_POL_ARRANG 505
+  16	 PORT 3
+  17	 AMPLITUDE 26
+  18	 PHASE_SCANNING 439
+  19	 PORT 4
+  20	 POL_ORIENT 5 AMPLITUDE 26
+  21	 PHASE_POL_ARRANG 426
+  22	 PORT 5
+  23	 AMPLITUDE 28
+  24	 PHASE_POL_ARRANG 583
+  25	 PORT 6
+  26	 POL_ORIENT Y AMPLITUDE 26
+  27	 PHASE_SCANNING 520
+  28	 PHASE_POL_ARRANG 520
+  29	 ADD BLOCK 4 -5 -8 -2
+  30	 ADD HEXAGON -3 -3
+  31	 ADD BLOCK -5 0 -6 3
+  33	 GROUP_EXCITATION
+  34	 AMPLITUDE UNIFORM 28
+  35	 PHASE UNIFORM 197
+  36	 END
+
+** WARNING B2: GRID step(s) too small for specified element in GROUP: testgroup
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:35.000000,35.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+** WARNING 7: User name too long: 
+** ERROR  B8: Error in group geometry; GROUP: testgroup

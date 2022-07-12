@@ -1,0 +1,69 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE STEP 88
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR 60 66
+   8	 PORTS 6
+   9	 PORT 1
+  10	 AMPLITUDE 19
+  11	 PHASE_POL_ARRANG 562
+  12	 PORT 2
+  13	 AMPLITUDE 15
+  14	 PHASE_POL_ARRANG 585
+  15	 PORT 3
+  16	 AMPLITUDE 20
+  17	 PHASE_SHAPING 502
+  18	 PHASE_POL_ARRANG 621
+  19	 PORT 4
+  20	 AMPLITUDE 29
+  21	 PHASE_POL_ARRANG 585
+  22	 PORT 5
+  23	 AMPLITUDE 30
+  24	 PHASE_SHAPING 619
+  25	 PHASE_POL_ARRANG 728
+  26	 PORT 6
+  27	 AMPLITUDE 31
+  28	 PHASE_SCANNING 577
+  29	 PHASE_POL_ARRANG 713 deg
+  30	 ADD NODE 5 5
+  32	 GROUP_EXCITATION
+  33	 AMPLITUDE UNIFORM 22
+  34	 PHASE UNIFORM -52
+  35	 END
+
+** Generating GROUP: testgroup.
+** PSTEP,QSTEP set to:88.000000,88.000000
+** Grid ANGLE set to:90.000000 
+** Group ROT_ANGLE set to: 0.000000 
+
+** Writing output file: ../inputs/gr58.dat
+
+NEL 
+NPORTS
+IDUM      REXA     REYA     REZA     THEA     PHEA     PSEA 
+          AMP      PSH      PSC      PHEPOL
+   1
+   1
+   6
+   6
+   1 	  440.00   440.00     0.00     0.00     0.00     0.00
+   1 	  440.00   440.00     0.00     0.00     0.00     0.00
+   	  418.00   510.00     0.00    90.00
+   	  418.00   510.00     0.00    90.00
+   	  330.00   533.00     0.00    90.00
+   	  330.00   533.00     0.00    90.00
+   	  440.00  1071.00     0.00    90.00
+   	  440.00  1071.00     0.00    90.00
+   	  638.00   533.00     0.00    90.00
+   	  638.00   533.00     0.00    90.00
+   	  660.00  1295.00     0.00    90.00
+   	  660.00  1295.00     0.00    90.00
+   	  682.00   661.00   577.00    90.00
+   	  682.00   661.00   577.00    90.00
+
+** End writing output file: ../inputs/gr58.dat 

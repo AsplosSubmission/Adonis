@@ -1,0 +1,4 @@
+ERROR Connection reset by peer: read
+The client connection from 127.0.0.1 is accepted
+Waiting for an indication...
+Quit the loop: Connection reset by peer

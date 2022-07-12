@@ -1,0 +1,18 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY RECTANGULAR PDIM 73 QDIM 60
+   7	 POLARIZATION LINEAR
+   8	 ADD HEXAGON 5 -3
+  10	 GROUP_EXCITATION
+  11	 AMPLITUDE UNIFORM 26
+  12	 PHASE UNIFORM -15
+  13	 END
+
+** ERROR  B3: RECTANGULAR element not allowed on HEXAGONAL grid in GROUP: testgroup

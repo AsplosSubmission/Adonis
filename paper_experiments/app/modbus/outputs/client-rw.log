@@ -1,0 +1,86 @@
+ERROR Illegal data value
+Connecting to 127.0.0.1:1502
+** UNIT TESTING **
+1/1 No response timeout modification on connect: OK
+
+TEST WRITE/READ:
+[00][01][00][00][00][06][FF][05][01][30][FF][00]
+Waiting for a confirmation...
+<00><01><00><00><00><06><FF><05><01><30><FF><00>
+1/2 modbus_write_bit: OK
+[00][02][00][00][00][06][FF][01][01][30][00][01]
+Waiting for a confirmation...
+<00><02><00><00><00><04><FF><01><01><01>
+2/2 modbus_read_bits: OK
+OK
+[00][03][00][00][00][0C][FF][0F][01][30][00][25][05][CD][6B][B2][0E][1B]
+Waiting for a confirmation...
+<00><03><00><00><00><06><FF><0F><01><30><00><25>
+1/2 modbus_write_bits: OK
+[00][04][00][00][00][06][FF][01][01][30][00][25]
+Waiting for a confirmation...
+<00><04><00><00><00><08><FF><01><05><CD><6B><B2><0E><1B>
+2/2 modbus_read_bits: OK
+OK
+OK
+OK
+OK
+OK
+OK
+[00][05][00][00][00][06][FF][02][01][C4][00][16]
+Waiting for a confirmation...
+<00><05><00><00><00><06><FF><02><03><AC><DB><35>
+1/1 modbus_read_input_bits: OK
+OK
+OK
+OK
+OK
+[00][06][00][00][00][06][FF][06][01][60][12][34]
+Waiting for a confirmation...
+<00><06><00><00><00><06><FF><06><01><60><12><34>
+1/2 modbus_write_register: OK
+[00][07][00][00][00][06][FF][03][01][60][00][01]
+Waiting for a confirmation...
+<00><07><00><00><00><05><FF><03><02><12><34>
+2/2 modbus_read_registers: OK
+OK
+[00][08][00][00][00][0D][FF][10][01][60][00][03][06][02][2B][00][01][00][64]
+Waiting for a confirmation...
+<00><08><00><00><00><06><FF><10><01><60><00><03>
+1/5 modbus_write_registers: OK
+[00][09][00][00][00][06][FF][03][01][60][00][03]
+Waiting for a confirmation...
+<00><09><00><00><00><09><FF><03><06><02><2B><00><01><00><64>
+2/5 modbus_read_registers: OK
+OK
+OK
+OK
+[00][0A][00][00][00][06][FF][03][01][60][00][00]
+Waiting for a confirmation...
+<00><0A><00><00><00><03><FF><83><03>
+3/5 modbus_read_registers (0): OK
+[00][0B][00][00][00][0F][FF][17][01][60][00][03][01][61][00][02][04][00][00][00][00]
+Waiting for a confirmation...
+<00><0B><00><00><00><09><FF><17><06><02><2B><00><00><00><00>
+4/5 modbus_write_and_read_registers: OK
+OK
+OK
+OK
+[00][0C][00][00][00][06][FF][04][01][08][00][01]
+Waiting for a confirmation...
+<00><0C><00><00><00><05><FF><04><02><00><0A>
+1/1 modbus_read_input_registers: OK
+OK
+1/1 Write mask: [00][0D][00][00][00][06][FF][06][01][60][00][12]
+Waiting for a confirmation...
+<00><0D><00><00><00><06><FF><06><01><60><00><12>
+[00][0E][00][00][00][08][FF][16][01][60][00][F2][00][25]
+Waiting for a confirmation...
+<00><0E><00><00><00><08><FF><16><01><60><00><F2><00><25>
+OK
+[00][0F][00][00][00][06][FF][03][01][60][00][01]
+Waiting for a confirmation...
+<00><0F><00><00><00><05><FF><03><02><00><17>
+OK
+
+ALL TESTS PASS WITH SUCCESS.

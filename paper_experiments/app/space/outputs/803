@@ -1,0 +1,25 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID TRIANGULAR
+   4	 PX 28
+   5	 PY -39
+   6	 QX 28
+   7	 QY -18
+   8	 ELEMENT
+   9	 GEOMETRY CIRCULAR RADIUS 70 cm
+  11	 ADD HEXAGON 1 2
+  13	 GROUP_EXCITATION
+  14	 XX UNIFORM 23
+  15	 PHASE UNIFORM -57
+  16	 END
+
+** ERROR 79: Incorrect AMPLITUDE excitation definition.
+Error occurred at line 13
+  13:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

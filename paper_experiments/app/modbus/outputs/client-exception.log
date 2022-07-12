@@ -1,0 +1,95 @@
+ERROR Slave device or server is busy
+Connecting to 127.0.0.1:1502
+** UNIT TESTING **
+1/1 No response timeout modification on connect: OK
+
+TEST MANUAL EXCEPTION:
+[00][01][00][00][00][06][FF][03][01][70][00][03]
+Waiting for a confirmation...
+<00><01><00><00><00><03><FF><83><06>
+* modbus_read_registers at special address: OK
+
+TEST RAW REQUESTS:
+[00][00][00][00][00][06][FF][03][01][60][00][05]
+* modbus_send_raw_request: OK
+* modbus_receive_confirmation: Waiting for a confirmation...
+<00><00><00><00><00><0D><FF><03><0A><00><00><00><00><00><00><00><00><00><00>
+OK
+[00][00][00][00][00][06][FF][01][01][60][00][00]
+* try function 0x1: read 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><81><03>
+OK
+[00][00][00][00][00][06][FF][01][01][60][07][D1]
+* try function 0x1: read 2001 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><81><03>
+OK
+[00][00][00][00][00][06][FF][02][01][60][00][00]
+* try function 0x2: read 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><82><03>
+OK
+[00][00][00][00][00][06][FF][02][01][60][07][D1]
+* try function 0x2: read 2001 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><82><03>
+OK
+[00][00][00][00][00][06][FF][03][01][60][00][00]
+* try function 0x3: read 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><83><03>
+OK
+[00][00][00][00][00][06][FF][03][01][60][00][7E]
+* try function 0x3: read 126 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><83><03>
+OK
+[00][00][00][00][00][06][FF][04][01][60][00][00]
+* try function 0x4: read 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><84><03>
+OK
+[00][00][00][00][00][06][FF][04][01][60][00][7E]
+* try function 0x4: read 126 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><84><03>
+OK
+[00][00][00][00][00][0D][FF][17][01][60][00][00][00][00][00][01][02][12][34]
+* try function 0x17: read 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><97><03>
+OK
+[00][00][00][00][00][0D][FF][17][01][60][00][7E][00][00][00][01][02][12][34]
+* try function 0x17: read 126 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><97><03>
+OK
+[00][00][00][00][00][0D][FF][10][01][60][00][00][00][02][2B][00][01][00][64]
+* try function 0x10: write 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><90><03>
+OK
+[00][00][00][00][00][0D][FF][10][01][60][00][7C][06][02][2B][00][01][00][64]
+* try function 0x10: write 124 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><90><03>
+OK
+[00][00][00][00][00][0D][FF][0F][01][60][00][00][00][02][2B][00][01][00][64]
+* try function 0xF: write 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><8F><03>
+OK
+[00][00][00][00][00][0D][FF][0F][01][60][07][B1][06][02][2B][00][01][00][64]
+* try function 0xF: write 1969 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><8F><03>
+OK
+[00][00][00][00][00][0D][FF][10][01][60][00][00][00][02][2B][00][01][00][64]
+* try function 0x10: write 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><90><03>
+OK
+[00][00][00][00][00][0D][FF][10][01][60][00][7B][06][02][2B][00][01][00][64]
+* try function 0x10: write 123 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><90><03>
+OK
+[00][00][00][00][00][0D][FF][0F][01][60][00][00][00][02][2B][00][01][00][64]
+* try function 0xF: write 0 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><8F><03>
+OK
+[00][00][00][00][00][0D][FF][0F][01][60][07][B0][06][02][2B][00][01][00][64]
+* try function 0xF: write 1968 values: Waiting for a confirmation...
+<00><00><00><00><00><03><FF><8F><03>
+OK
+[00][00][00][00][00][06][FF][42][00][00][00][00]
+Waiting for a confirmation...
+<00><00><00><00><00><03><FF><C2><01>
+Return an exception on unknown function code: OK
+
+ALL TESTS PASS WITH SUCCESS.

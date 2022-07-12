@@ -1,0 +1,40 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID SQUARE
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 55
+   6	 POLARIZATION CIRCULAR
+   7	 PORTS 6
+   8	 PORT 1
+   9	 AMPLITUDE 22
+  10	 PORT 2
+  11	 AMPLITUDE 29
+  12	 PHASE_SHAPING 576 deg
+  13	 PHASE_POL_ARRANG 790
+  14	 PORT 3
+  15	 AMPLITUDE 26
+  16	 PHASE_POL_ARRANG 468
+  17	 PORT 4
+  18	 AMPLITUDE 21
+  19	 PORT 5
+  20	 AMPLITUDE 22
+  21	 PHASE_POL_ARRANG 401
+  22	 PORT 6
+  23	 AMPLITUDE 19
+  24	 PHASE_POL_ARRANG 561
+  25	 ADD BLOCK -5 0 -5 0
+  27	 GROUP_EXCITATION
+  28	 AMPLITUDE UNIFORM 23 mm
+  29	 PHASE UNIFORM 110
+  30	 END
+
+** ERROR 80: Incorrect PHASE excitation definition.
+Error occurred at line 27
+  27:	 GROUP_EXCITATION
+% 	 ^
+** ERROR 82: Incorrect GROUP definition, group:  

@@ -1,0 +1,27 @@
+*******************************************************************************
+                         ARRAY PREPROCESSOR ver. 1.0
+*******************************************************************************
+
+
+
+   1	GROUP testgroup
+   3	 GRID HEXAGONAL
+   4	 ELEMENT
+   5	 GEOMETRY CIRCULAR RADIUS 66
+   7	 ADD BLOCK 5 5 3 -6
+   8	 ADD BLOCK -9 6 7 0
+   9	 ADD HEXAGON -11 -6
+  10	 ADD BLOCK 8 -3 -3 -6
+  12	 GROUP_EXCITATION
+  13	 AMPLITUDE SECOND ORDER CENTRE 25 P1_VAL 36 P2_VAL 33 Q1_VAL 29 Q2_VAL 23
+  14	 PHASE XX
+  15	 END
+
+Error occurred at line 14
+  14:	 PHASE XX
+% 	       ^
+** ERROR 73: Incorrect POINTING direction definition. 
+
+** ERROR 78: Incorrect POINTING phase definition.
+** ERROR 80: Incorrect PHASE excitation definition.
+** ERROR 82: Incorrect GROUP definition, group:  

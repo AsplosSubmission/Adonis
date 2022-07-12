@@ -1,0 +1,109 @@
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+ERROR Illegal data address
+Connecting to 127.0.0.1:1502
+** UNIT TESTING **
+1/1 No response timeout modification on connect: OK
+
+At this point, error messages doesn't mean the test has failed
+
+TEST ILLEGAL DATA ADDRESS:
+[00][01][00][00][00][06][FF][01][00][00][00][01]
+Waiting for a confirmation...
+<00><01><00><00><00><03><FF><81><02>
+* modbus_read_bits (0): OK
+[00][02][00][00][00][06][FF][01][01][30][00][26]
+Waiting for a confirmation...
+<00><02><00><00><00><03><FF><81><02>
+* modbus_read_bits (max): OK
+[00][03][00][00][00][06][FF][02][00][00][00][01]
+Waiting for a confirmation...
+<00><03><00><00><00><03><FF><82><02>
+* modbus_read_input_bits (0): OK
+[00][04][00][00][00][06][FF][02][01][C4][00][17]
+Waiting for a confirmation...
+<00><04><00><00><00><03><FF><82><02>
+* modbus_read_input_bits (max): OK
+[00][05][00][00][00][06][FF][03][00][00][00][01]
+Waiting for a confirmation...
+<00><05><00><00><00><03><FF><83><02>
+* modbus_read_registers (0): OK
+[00][06][00][00][00][06][FF][03][01][60][00][21]
+Waiting for a confirmation...
+<00><06><00><00><00><03><FF><83><02>
+* modbus_read_registers (max): OK
+[00][07][00][00][00][06][FF][04][00][00][00][01]
+Waiting for a confirmation...
+<00><07><00><00><00><03><FF><84><02>
+* modbus_read_input_registers (0): OK
+[00][08][00][00][00][06][FF][04][01][08][00][02]
+Waiting for a confirmation...
+<00><08><00><00><00><03><FF><84><02>
+* modbus_read_input_registers (max): OK
+[00][09][00][00][00][06][FF][05][00][00][FF][00]
+Waiting for a confirmation...
+<00><09><00><00><00><03><FF><85><02>
+* modbus_write_bit (0): OK
+[00][0A][00][00][00][06][FF][05][01][55][FF][00]
+Waiting for a confirmation...
+<00><0A><00><00><00><03><FF><85><02>
+* modbus_write_bit (max): OK
+[00][0B][00][00][00][08][FF][0F][00][00][00][01][01][00]
+Waiting for a confirmation...
+<00><0B><00><00><00><03><FF><8F><02>
+* modbus_write_coils (0): OK
+[00][0C][00][00][00][0C][FF][0F][01][55][00][25][05][00][00][00][00][00]
+Waiting for a confirmation...
+<00><0C><00><00><00><03><FF><8F><02>
+* modbus_write_coils (max): OK
+[00][0D][00][00][00][06][FF][06][00][00][00][00]
+Waiting for a confirmation...
+<00><0D><00><00><00><03><FF><86><02>
+* modbus_write_register (0): OK
+[00][0E][00][00][00][06][FF][06][01][80][00][00]
+Waiting for a confirmation...
+<00><0E><00><00><00><03><FF><86><02>
+* modbus_write_register (max): OK
+[00][0F][00][00][00][09][FF][10][00][00][00][01][02][00][00]
+Waiting for a confirmation...
+<00><0F><00><00><00><03><FF><90><02>
+* modbus_write_registers (0): OK
+[00][10][00][00][00][0D][FF][10][01][80][00][03][06][00][00][00][00][00][00]
+Waiting for a confirmation...
+<00><10><00><00><00><03><FF><90><02>
+* modbus_write_registers (max): OK
+[00][11][00][00][00][08][FF][16][00][00][00][F2][00][25]
+Waiting for a confirmation...
+<00><11><00><00><00><03><FF><96><02>
+* modbus_mask_write_registers (0): OK
+[00][12][00][00][00][08][FF][16][01][80][00][F2][00][25]
+Waiting for a confirmation...
+<00><12><00><00><00><03><FF><96><02>
+* modbus_mask_write_registers (max): OK
+[00][13][00][00][00][0D][FF][17][00][00][00][01][00][00][00][01][02][00][00]
+Waiting for a confirmation...
+<00><13><00><00><00><03><FF><97><02>
+* modbus_write_and_read_registers (0): OK
+[00][14][00][00][00][11][FF][17][01][80][00][03][01][80][00][03][06][00][00][00][00][00][00]
+Waiting for a confirmation...
+<00><14><00><00><00><03><FF><97><02>
+* modbus_write_and_read_registers (max): OK
+
+ALL TESTS PASS WITH SUCCESS.
